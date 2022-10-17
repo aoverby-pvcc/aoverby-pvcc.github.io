@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!-- Name: Anton Overby
+Program Purpose: This program will perform simple arithmetic in JavaScript
+-->
+
+<html lang="en">
+ 
+<head>
+	<title>Simple Arithmetic</title>
+
+    <script type = "text/javascript">
+        function calculate()
+        {
+            //define variables
+            var num1;
+            var num2;
+            var addans;
+            var subans;
+            var multans;
+            var divans;
+            var modans;
+
+            //get data from user
+            num1 = prompt("Enter the first number:");
+            num2 = prompt("Enter the second number:");
+
+            //perform calculations
+            addans = num1 * 1 + num2 * 1; //make sure num1 & num2 are numeric
+            subans = num1 - num2;
+            multans = num1 * num2;
+            divans = num1/num2;
+            modans = num1 % num2;
+
+            //display results
+            document.write("Arithmetic Answers");
+            document.write(addans);
+            document.write(subans);
+            document.write(multans);
+            document.write(divans);
+            document.write(modans);
+        }
+    </script>
+</head>
+
+<body style= "color:#D3BC8D; background-color:#101820; font-family:sans-serif, calibri, arial, verdana, Tahoma, Trebuchet MS, Brush Script MT;">
+    <form>
+        <input type = "button" value = "Click here for arithemtic calculations" class = "calcbutton" onclick = "calculate()">
+    </form>
+</body>
+
+</html>
