@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<!-- Name: Anton Overby
+Program Purpose: To use HTML and CSS to create a table of vocabulary terms related to operating systems
+-->
+
+<html lang="en">
+ 
+<head>
+	<title></title>
+    <style>
+    body {
+        background-color: #101820;
+        color: #d3bc8d;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+    }
+
+    table{
+        padding: 5%;
+        margin: 5%;
+        border: solid 2px #d3bc8d;
+        border-collapse:collapse;
+    }
+
+    .toprow{
+       font-size: 150%;
+       font-weight:bolder;
+    }
+
+    .cathead{
+       font-weight:bold;
+    }
+
+    td{
+        border: solid 1px #d3bc8d;
+        padding: 1%;
+    }
+
+    tr:first-child{
+       text-align: center;
+    }
+    </style>
+    <script type = "text/javascript">
+    </script>
+</head>
+
+<body>
+    <table>
+        <tr class="toprow">
+            <th colspan="2">OPERATING SYSTEMS TERMINOLOGY</th>
+        </tr>
+        <tr class="cathead">
+            <td>Term</td>
+            <td>Definition</td>
+        </tr>
+        <tr>
+            <td>operating system</td>
+            <td>The software that controls the overall operation of a computer
+            </td>
+        </tr>
+        <tr>
+            <td>job queue
+            </td>
+            <td>The "waiting line" where jobs residing in mass storage wait to be executed
+            </td>
+        </tr>
+        <tr>
+            <td>FIFO</td>
+            <td>Stands for "first-in, first-out", meaning that the job first in the job queue is the first to be executed, the second in the queue is the second to be executed, so on, and so on.
+            </td>
+        </tr>
+        <tr>
+            <td>interactive processing
+            </td>
+            <td>An operating system feature in which a program being executed can carry on a dialogue with a user through remote terminals
+            </td>
+        </tr>
+        <tr>
+            <td>time-sharing 
+            </td>
+            <td>An operating system feature in which services are provided to multiple users at the same time. 
+            </td>
+        </tr>
+        <tr>
+            <td>multiprogramming</td>
+            <td>Multiprogramming is a time-sharing technique in which time is divided into intervals where the execution of a job can only be done one interval at a time. The intervals are then switched between rapidly to create the illusion of several jobs executing simultaneously.
+            </td>
+        </tr>
+        <tr>
+            <td>application software
+            </td>
+            <td>The programs for performing tasks particular to the machine's particular use case. Application software I use: Excel, Tableau, VS Code Studio, Google Chrome. 
+            </td>
+        </tr>
+        <tr>
+            <td>system software
+            </td>
+            <td>Software which performs tasks which control the computer in general. Utility Managers, Settings, Printer software. 
+            </td>
+        </tr>
+        <tr>
+            <td>utility software
+            </td>
+            <td>A collection of system software which perform tasks fundamental to the system but not included in the operating system. Partitioning hard drives, formatting disks, moving files from USB sticks to local memory, etc.
+            </td>
+        </tr>
+        <tr>
+            <td>graphical user interface (GUI)
+            </td>
+            <td>The graphical representation of files and programs through icons
+            </td>
+        </tr>
+        <tr>
+            <td>shell</td>
+            <td>Software which sends messages to and from the computer in the form of text commands and textual outputs. Command line, PowerShell, etc.
+            </td>
+        </tr>
+        <tr>
+            <td>kernel</td>
+            <td>The internal part of an operating system which stores the software performing basic functions. File managers, user files, drivers, memory manager, etc.
+            </td>
+        </tr>
+        <tr>
+            <td>device driver
+            </td>
+            <td>Software units which communicate with peripheral devices (printers, USB drives, speakers, etc.) to control their function. 
+            </td>
+        </tr>
+        <tr>
+            <td>file manager
+            </td>
+            <td>Part of the kernal which maintains records of all files stored in the different mass storage locations (USB drives, hard drives, cloud-connected storage, etc.). Keeps up with where the files are, who can access those files, and which parts of mass storage are available for storage. 
+            </td>
+        </tr>
+        <tr>
+            <td>memory manager
+            </td>
+            <td>Part of the kernal which is tasked with maintaining the computer's use of main memory.
+            </td>
+        </tr>
+        <tr>
+            <td>virtual memory
+            </td>
+            <td>The "fictional" memory space created by the technique of paging, or rotating the memory needed for programs and data back and forth between main memory and mass storage. 
+            </td>
+        </tr>
+        <tr>
+            <td>boot strapping
+            </td>
+            <td>How the operating system starts up. Often shortened to "booting". 
+            </td>
+        </tr>
+        <tr>
+            <td>ROM (Read-Only Memory)
+            </td>
+            <td>A portion of the main memory which can be read but cannot be altered. Its lack of volatility is useful for putting the operating system in a reliable location so a CPU can locate it and boot. 
+            </td>
+        </tr>
+        <tr>
+            <td>deadlock</td>
+            <td>A resource allocation problem in which two or more processes are blocked from progressing because each program is waiting for a resource that is allocated to the other. 
+            </td>
+        </tr>
+        <tr>
+            <td>spooling</td>
+            <td>Holding data for output at a later, more convenient time. 
+            </td>
+        </tr>
+        <tr>
+            <td>super user (or administrator)
+            </td>
+            <td>A user with highly privileged access to the operating system. Can edit programs inside of the kernal, is able to make user accounts, establish permissions to access certain files, etc.
+            </td>
+        </tr>
+        <tr>
+            <td>multi-factor authentication
+            </td>
+            <td>User authentication method where access is granted only after presenting two or more pieces of evidence of the authentication methods of knowledge, possession, and inherence. For example, to log into a website you must enter a code sent to your cell phone to gain access.
+            </td>
+        </tr> 
+    </table>
+</body>
+
+</html>
