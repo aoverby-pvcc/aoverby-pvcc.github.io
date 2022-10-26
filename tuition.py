@@ -69,8 +69,9 @@ def display_results():
     print('Total            $ ' + format(totalowed, '10,.2f'))
     print('Scholarship      $ ' + format(scholarshipamt, '10,.2f'))
     print('----------------------------------------')
-    print('Balance Owed     $ ' + format(balance))
+    print('Balance Owed     $ ' + format(balance, '10,.2f'))
     print('----------------------------------------')
+    print('IF THE BALANCE IS NEGATIVE, PVCC WILL REIMBURSE YOU AFTER THE DROP/ADD PERIOD')
     print(str(datetime.datetime.now()))
     print('NOTE: PVCC Fee Rates: https://www.pvcc.edu/tuition-and-fees')
 
